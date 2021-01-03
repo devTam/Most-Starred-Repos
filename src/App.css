@@ -1,0 +1,11 @@
+.app {
+    padding: 30px;
+    background-color: #eff0e6;
+    min-height: 100vh;
+}
+
+.app__header {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
