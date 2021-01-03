@@ -34,6 +34,10 @@
   align-items: center;
 }
 
+.stars-issues-container {
+    display: flex;
+}
+
 .row__stars, .row__issues {
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.45);
     padding: 10px 20px;
@@ -51,4 +55,58 @@
 
 .row__username {
     font-weight: bold;
+}
+
+/* Media query for responsiveness*/
+
+@media only screen and (max-width: 759px) {
+    .row {
+        padding: 15px;
+        background-color: inherit;
+    }
+
+    .row__name {
+        font-size: 1.3rem;
+    }
+
+    .row__description {
+        font-size: .9rem;
+        margin-bottom: 10px;
+    }
+
+    .row__details {
+        font-size: .9rem;
+        display: block;
+    }
+
+    .stars-issues-container {
+        margin-bottom: 10px;
+    }
+
+    .row__stars, .row__issues {
+        padding: 8px 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .row {
+        display: block;
+    }
+
+    .row__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .row__content {
+        padding-left: 0;
+    }
+
+    .row__name {
+        text-align: center;
+        margin-left: 0;
+    }
 }

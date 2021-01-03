@@ -14,9 +14,12 @@ const Row = () => {
                     An Open Source Machine Learning Framework For Everyone https://tensorflow.org
                 </p>
                 <div className="row__details">
+                    <div className="stars-issues-container">
                     <div className="row__stars"><p>Stars: <span>118k</span></p></div>
                     <div className="row__issues">
                         <p>Issues: <span>1.6k</span></p>
+                    </div>
+
                     </div>
                     <p className="row__user">Submitted 30 days ago by <span className='row__username'>tensorflow</span></p>
                 </div>
